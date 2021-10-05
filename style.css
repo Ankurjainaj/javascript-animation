@@ -6,22 +6,21 @@ body{
     position: relative;
     margin: 0; 
     background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
-    overflow:hidden;
+   overflow:hidden;
 }
 .sky{
-    display: inline-block;
-    height: 90vh;
+    display: inline;
+    height: 100vh;
     width: 100vw;
     border: 1px solid black;
-    margin: 3rem 0;
-    margin-left: 0;
+    margin:  0;
+    margin-left: 5rem;
     background: url(./sky3.jpeg);
     background-size: cover;
     position: absolute;
     background-position-y: -70px;
     box-shadow: 1px 2px 60px darkmagenta ;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    
     background-repeat: repeat-x;
    
 }
@@ -30,11 +29,32 @@ body{
     position: absolute;
     bottom: 200px;
     width: 100px;
+    /* z-index: 2;
+    background-image: url(../bird1.png/); */
 }
 .button{
     padding-left: 20px;
     padding-top: 20px;
 }
+.button2{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.footer{
+    background-color: black;
+    position:relative;
+    height: 35px;
+    margin-top: 610px;
+    margin-bottom: 0px;
+}
+.fa-instagram{
+    color: blue;
+    
+    margin-left: 800px;
+    
+}
+
+
  /* .sky.animate{ */
     /* transform: translate(-90%);
     transition-property: transform;
