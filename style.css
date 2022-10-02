@@ -1,30 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     position: relative;
-    margin: 0; 
+    margin: 0;
     background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
-   overflow:hidden;
+    overflow: hidden;
 }
-.sky{
+
+.sky {
     display: inline;
     height: 100vh;
     width: 100vw;
     border: 1px solid black;
-    margin:  0;
+    margin: 0;
     margin-left: 5rem;
     background: url(./sky3.jpeg);
     background-size: cover;
     position: absolute;
     background-position-y: -70px;
-    box-shadow: 1px 2px 60px darkmagenta ;
-    
+    box-shadow: 1px 2px 60px darkmagenta;
     background-repeat: repeat-x;
-   
 }
-.jet{
+
+.jet {
     margin-left: 790px;
     position: absolute;
     bottom: 200px;
@@ -32,32 +33,35 @@ body{
     /* z-index: 2;
     background-image: url(../bird1.png/); */
 }
-.button{
+
+.button {
     padding-left: 20px;
     padding-top: 20px;
 }
-.button2{
+
+.button2 {
     padding-right: 20px;
     padding-top: 20px;
 }
-.footer{
-    background-color: black;
-    position:relative;
+
+.footer {
+    background-color: white;
+    position: relative;
     height: 35px;
     margin-top: 610px;
     margin-bottom: 0px;
 }
-.fa-instagram{
+
+.fa-instagram {
     color: blue;
-    
     margin-left: 800px;
-    
 }
 
 
- /* .sky.animate{ */
-    /* transform: translate(-90%);
+/* .sky.animate{ */
+
+
+/* transform: translate(-90%);
     transition-property: transform;
     transition-duration: 0.2s;
     transition-timing-function: linear; */
-
